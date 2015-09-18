@@ -1,0 +1,243 @@
+.navbar-default {
+  background-color: #f9948c;
+  border-color: #575358;
+}
+.navbar-default .navbar-brand {
+  color: #f6fdff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #f6fdff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f6fdff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #575358;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #575358;
+}
+.navbar-default .navbar-toggle {
+  border-color: #575358;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #575358;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f6fdff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #f6fdff;
+}
+.navbar-default .navbar-link {
+  color: #f6fdff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f6fdff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #575358;
+  }
+}
+
+.footer-basic-centered{
+  background-color: #00275E;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font: normal 18px Helvetica;
+  clear: both;
+  position: absolute;
+  margin-top: 30px;
+
+}
+
+.footer-basic-centered .footer-company-motto{
+  color:  #ffffff;
+  font-size: 24px;
+ margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+  color:  #ffffff;
+  font-size: 14px;
+ margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+  list-style: none;
+  font-weight: bold;
+  color:  #ffffff;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+  display:inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+  .footer-basic-centered{
+    padding: 35px;
+  }
+
+  .footer-basic-centered .footer-company-motto{
+    font-size: 18px;
+  }
+
+  .footer-basic-centered .footer-company-name{
+    font-size: 12px;
+  }
+
+  .footer-basic-centered .footer-links{
+    font-size: 14px;
+    padding: 25px 0 20px;
+  }
+
+  .footer-basic-centered .footer-links a{
+    line-height: 1.8;
+  }
+}
+
+ *{
+     margin: 0;
+     }
+
+     .wrapper{
+     min-height: 100%;
+     height: auto !important;
+     height: 100%;
+     margin: 0 auto -0em;
+     }
+
+     .footer, .push{
+     height: 2em;
+     }
+
+     .footer, .push{
+     clear: both;
+     }
+
+
+.github-logo {
+  height: 50px;
+  width: 50px:
+  padding: 100px;
+  margin: 120px;
+  vertical-align: bottom;
+}
+
+img {
+  max-width: 100%;
+  padding-right: 10px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  color: #575358;
+}
+
+body {
+  font-family: 'Playfair Display', Times, serif;
+  font-weight: normal;
+  padding-top: 65px;
+  height: 100%;
+}
+
+.lead {
+  color: white;
+  font-family: 'Playfair Display', Times, serif;
+  padding-top: 50px;
+}
+
+.image {
+  padding-top: 50px;
+}
+
+form {
+  padding-bottom: 300px;
+}
+
+
+.jumbotron {
+    position: relative;
+    background: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #00275E; 
+  border-color: #00275E; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #00275E; 
+  border-color: #00275E; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #00275E; 
+  border-color: #00275E; 
+} 
+ 
+.btn-sample .badge { 
+  color: #00275E; 
+  background-color: #ffffff; 
+}
